@@ -1,6 +1,6 @@
 # Characterizing spatiotemporal trends in self-reported mask-wearing behavior in the United States
 
-This repository provides the data and source code for the following study: Juliana C Taube, Zachary Susswein, Shweta Bansal. "Characterizing spatiotemporal trends in self-reported mask-wearing behavior in the United States." (currently in peer review)
+This repository provides the data and source code for the following study: Juliana C Taube, Zachary Susswein, Shweta Bansal. "Characterizing spatiotemporal trends in self-reported mask-wearing behavior in the United States." The preprint is available at https://doi.org/10.1101/2022.07.19.22277821. 
 
 ## How to use this resource
 To rerun the models and reproduce the figures, start by opening `covid_masking.Rproj`. From here, run the files in numerical order, starting with `6GENERATE-BIAS.r` if you don't have access to the individual data (see Individual Data below). Code will not run correctly if files are sourced out of order.
