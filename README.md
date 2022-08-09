@@ -33,6 +33,7 @@ Reference files that may be required to run the code, including fips and zipcode
 * `state_fips.csv` contains each state's fips code
 * `U.S._State_and_Territorial_Public_Mask_Mandates_From_April_8__2020_through_August_15__2021_by_State_by_Day.csv` contains mask mandate data at the state-level (from https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i) 
 * `U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.csv` contains mask mandate data at the county-level (from https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i)
+  * This file is large and will be uploaded in the future. In the meantime, users can download the csv from the above link.
 * `vax_data_for_time_series.RDS` contains cumulative proportions of all U.S. residents vaccinated by week (from `vaccinetracking.us`, code to produce these estimates is commented out in `13FIGURES.csv`)
 * `worry_df_for_time_series.RDS` contains aggregated weekly data on proportion of respondents very or somewhat worried about severe COVID-19 from the CTIS 
 
