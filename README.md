@@ -3,7 +3,7 @@
 This repository provides the data and source code for the following study: Juliana C Taube, Zachary Susswein, Shweta Bansal. "Characterizing spatiotemporal trends in self-reported mask-wearing behavior in the United States." The preprint is available at https://doi.org/10.1101/2022.07.19.22277821. 
 
 ## How to use this resource
-To rerun the models and reproduce the figures, start by opening `covid_masking.Rproj`. From here, run the files in numerical order, starting with `06GENERATE-BIAS.r` if you don't have access to the individual data (see Individual Data below). Code will not run correctly if files are sourced out of order.
+To rerun the models and reproduce the figures, start by opening `covid_masking.Rproj`. From here, run the files in numerical order, starting with `06GENERATE-BIAS.r` if you don't have access to the individual data (see Individual Data below). Code will not run correctly if files are sourced out of order. All necessary input data files should be in the repository, with the exception of a large CDC table with daily county mask mandate data which can be downloaded by users (see `data/`). 
 
 ## Estimates (`data/estimates/`)
 Raw survey responses aggregated to the county-month level and model estimates at the county-month level for both the CTIS (`fb`) and ONM (`onm`) surveys.
@@ -41,6 +41,6 @@ Reference files that may be required to run the code, including fips and zipcode
 Scripts to clean data, rake survey responses, resampled weighted survey responses, run binomial regression models, and reproduce figures. Scripts for analyzing individual responses are provided for reproducibility but will not run without the original individual-level data (see Individual Data section below). File names briefly describe the purpose of each script (where `COMM` stands for community-reported and `ONM` for the Outbreaks Near Me dataset).
 
 ## Individual Data
-Individual CTIS survey responses cannot be shared by the authors, but researchers can visit \url{https://cmu-delphi.github.io/delphi-epidata/symptom-survey/data-access.html} if they would like to enter an agreement for data usage with CMU Delphi. Individual ONM responses also cannot be shared by the authors, but researchers can contact the OutbreaksNearMe team at Boston Children's Hospital and Momentive to inquire about access to these data. 
+Individual CTIS survey responses cannot be shared by the authors, but researchers can visit https://cmu-delphi.github.io/delphi-epidata/symptom-survey/data-access.html if they would like to enter an agreement for data usage with CMU Delphi. Individual ONM responses also cannot be shared by the authors, but researchers can contact the OutbreaksNearMe team at Boston Children's Hospital and Momentive to inquire about access to these data. 
 
 If users have access to the individual data, they will be able to run files 01 through 05.
